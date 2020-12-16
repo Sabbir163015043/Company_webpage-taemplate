@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.bg-slider-1{
+    background: url('images/slider-1.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.service-bg-1{
+    background: url('images/service-1.jpg');
+}
+.header-top-area{
+    background-color: #222;
+    padding: 7px;
+}
+.header-top-area a, .header-top-area{
+    color: #fff
+}
+.header-top-area i.fa{
+    color: #e8b408;
+    margin-right: 7px;
+    
+}
+.separator{
+    display: inline-block;
+    margin: 0px 10px;
+    
+}
+.logo{
+    color: #555;
+    text-transform: uppercase;
+    margin: 16px 0px;
+     
+}
+.logo h2{
+     font-weight: bold;
+     border: 3px solid #222;
+     margin: 0px 0px; 
+     text-align: center;
+     margin: 10px 0px;
+     padding: 8px;
+}
+.menu{
+    
+}
+
+.menu ul li{
+    list-style: none;
+    float: left
+}
+.menu ul li a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 30px 19px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #222;
+}
+
+.menu ul li a:hover{
+    background: #f7f7f7;
+    
+}
+.slider-content{
+    padding: 40px;
+    color: #fff;
+    margin: 20px;
+}
+.slider-content h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.slider-content p{
+    font-size: 17px;
+    padding: 20px 0px;
+    margin-bottom: 30px
+}
+.slider-content a{
+    text-decoration: none;
+    background: #216f2d;
+    padding: 12px 20px;
+    color: #e6dede;
+    font-size: 17px;
+}
+.slider-content a:hover{
+    background: #53c364;
+    color: #fff;
+    transition: .5s;
+}
+
+
+/*.........About the owl carosel....*/
+
+button.owl-next {
+    position: absolute;
+    top: 50%;
+    margin-right: 10px;
+}
+.owl-nav {
+    font-size: 40px;
+    color: #fff;
+}
+
+button.owl-prev {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}
+
+
+
+/*...........About the service area....*/
+
+.service-bg-1{
+    background-image: url('images/service-1.jpg')no-repeat;
+}
+.service-bg-2{
+    background: url('images/service-3.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.service-bg-item{
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    margin-bottom: 30px;
+    
+}
+.service-area{
+    margin-top: 50px;
+}
+
+.service-small-icon{
+    display:inline-block;
+    border-bottom: 1px solid #999;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: #222;
+}
+.service-small-icon img{
+    float: left;
+    margin-right: 15px
+}
+.service-small-icon:hover{
+    text-decoration: none;
+    opacity: .8;
+    color: #222;
+}
+/*
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0px 15px;
+    opacity: .5;
+}
+.owl-prev, .owl-next {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+.owl-next{
+    right: 0px;
+}
+.owl-nav button.owl-next:hover{
+    color: #fff;
+    opacity: .2;
+}
+*/
+
+/*..........About the video area....*/
+
+.video-content ul li {
+    list-style: none;
+}
+
+.video-content i.fa {
+    color: #e1db0c;
+    margin-right: 6px;
+}
+.video-block-area {
+    background: #ddd;
+    margin-top: 30px;
+    padding: 50px;
+}
+.embed-responsive iframe {
+    padding: 22px;
+}
+
+
+
+
+
+
+
+
+
+
